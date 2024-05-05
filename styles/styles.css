@@ -55,18 +55,18 @@ a{
 .search{
   height: 40px;
   width: 200px;
-  margin-left: 600px;
+  margin-left: 400px;
   border-radius: 5px;
   font-size: 18px;
   margin-top: 20px;
 }
 .user{
-  margin-left: 30px;
+  margin-left: 10px;
 }
 /* header style css*/
 .header{
     background: #0cc6eb;
-    background-image: url('../images/logos/rento-logo.png.png');
+    background-image: url('./images/logos/rento-logo.png.png');
     background-repeat: no-repeat;
     background-position: bottom left,right;
    
