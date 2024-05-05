@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Navbar container */
+.logo{
+  height: 50px;
+  margin-top: 10px;
+
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.navbar{
+  background-color: teal;
+}
+.navbar ul{
+  display: inline-flex;
+}
+.navbar ul li{
+  height: 60px;
+  padding: 10px;
+  line-height: 60px;
+}
+.navbar ul li a{
+  color: white;
+  font-size: 22px;
+  text-transform: capitalize;
+  display: block;
+}
+.navbar ul li:hover{
+  background-color: brown;
+}
+/* dropdown part css start*/
+.navbar .dropdown{
+  display: block! important;
+  background-color: teal;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.dropdown{
+  visibility: hidden;
+}
+.navbar ul li:hover .dropdown{
+  visibility: visible;
+}
+.dropdown li{
+  position: relative;
+}
+.search{
+  height: 40px;
+  width: 200px;
+  margin-left: 900px;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.user{
+  margin-left: 80px;
+}
+/* header style css*/
+.header{
+    background: #0cc6eb;
+    background-image: url('../images/logos/rento-logo.png.png');
+    background-repeat: no-repeat;
+    background-position: bottom left,right;
+   
+}
+.banner{
+    display: flex;
+    margin: 0 200px;
+    height: 400px;
+
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 85px;
+    padding-top: 100px;
+    padding-left: 270px;
+    color: rgb(13, 0, 255);
+
+}
+.text-primary{
+    color: white;
+}
+.banner-sub-title{
+    font-weight: 400;
+    font-size: 35px;
+   padding-top: 180px;
+  
+}
+/* Slider css */
+#slider{
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+#slider figure{
+  position: relative;
+  width: 398%;
+  margin-top: 30px;
+  padding: 30px;
+  animation: 10s slider infinite;
+  justify-content: center;
+  align-items: center;
+}
+#slider figure img{
+  float: left;
+  width: 25%;
+  height: 700px;
+}
+@keyframes slider{
+  0% {
+    left: 0;
+  }
+  20% {
+    left: 0;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  95% {
+    left: -300%;
+  }
+  100% {
+    left: -400%;
+  }
+}
+#slider figure img{
+  background: green;
+  box-shadow: 0px 6px 50px #757575;
+  border-radius: 5px;
+}
+/* lists styles */
+.lists{
+  margin-top: 130px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.lists-container{
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  text-align: center;
+}
+.list{
+  background: #ffffff;
+  box-shadow: 0px 6px 50px #757575;
+  border-radius: 5px;
+  padding: 30px;
+}
+.list img{
+  width: 480px;
+  height: 300px;
+}
+.list{
+  transition: transform 0.3s ease-in-out;
+}
+.list:hover{
+  transform: scale(1.2);
+}
+.list-title{
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.list-description{
+  color: #757575;
+}
+.list-headline{
+  font-weight: 600;
+  font-size: 20px;
+  color: red;
+  margin-top: 10px;
+}
+/* contact styles */
+.contact{
+  display: flex;
+  gap: 100px;
+  background: #000000;
+  padding: 130px 200px;
+  margin-top: 100px;
+}
+.contact .section-title{
+  text-align: left;
+  color: white;
+}
+.section-description{
+  color: white;
+}
+.contact input[type="text"], input[type="email"], textarea{
+  margin-bottom: 24px;
+  border: 0;
+  width: 100%;
+  padding:  18px 30px;
+  
+}
+input{
+  height: 30px;
+}
+.contact a{
+  text-decoration: none;
+}
+.contact a i{
+  font-size: 30px;
+  padding: 5px;
+}
+.btn-primary{
+  width: 80px;
+  font-weight: 400;
+  font-size: 15px;
+  border-radius: 5px;
+}
