@@ -66,7 +66,7 @@ a{
 /* header style css*/
 .header{
     background: #0cc6eb;
-    background-image: url('../images/logos/rento-logo.png.png');
+    background-image: url('./images/logos/rento-logo.png.png');
     background-repeat: no-repeat;
     background-position: bottom left,right;
    
