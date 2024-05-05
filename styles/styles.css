@@ -55,7 +55,7 @@ a{
 .search{
   height: 40px;
   width: 200px;
- 
+  margin-left: 100px;
   border-radius: 5px;
   font-size: 18px;
   margin-top: 20px;
@@ -164,7 +164,7 @@ a{
   padding: 30px;
 }
 .list img{
-  width: 480px;
+  width: 400px;
   height: 300px;
 }
 .list{
